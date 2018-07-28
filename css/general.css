@@ -32,6 +32,20 @@
 	
 }
 
+.section2{
+	
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 247px;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	width: 80%;
+	
+	
+	
+}
+
 .photoProfile{
 	 -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
