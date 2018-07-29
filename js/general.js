@@ -50,3 +50,12 @@ $("#pO").click(function(evt){
 	check=1;
 });
 //----
+//
+
+$(function(){ //cargar modulos a sus respectivas secciones
+	$("#tarjetasLaravel").load('laravel/laravel.html');
+	$("#tarjetasBootstrap").load('bootstrap/bootstrap.html');
+	$("#tarjetasAngular").load('angular/angular.html');
+	$("#tarjetasAndroid").load('android/android.html');
+	$("#tarjetasOtros").load('otros/otros.html');
+});
