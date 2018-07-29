@@ -1,11 +1,13 @@
 
 
 
+
+
 $(function(){ //Desplazamiento suave
 
-     $('a[href*=\\#]').click(function(evt) {
+     $('a[href*=\\#]').click(function(evt) { //detecta cualquier pulsación de un link y puede ser un problema
       evt.preventDefault();
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname && check==1) {
 
              var $target = $(this.hash);
 
@@ -17,7 +19,7 @@ $(function(){ //Desplazamiento suave
 
                  $('html,body').animate({scrollTop: targetOffset}, 600); //velocidad de animación y distancia de desplazamiento
 
-                
+               check=0; 
             }
 
        }
@@ -25,3 +27,26 @@ $(function(){ //Desplazamiento suave
    });
 
 });
+
+// Esto hará que el desplazamiento suave solo funcione con los botones/enlaces correctos
+var check=0; //si es 0 el desplazamiento no se activa
+$("#pL").click(function(evt){
+	check=1;
+});
+
+$("#pA").click(function(evt){
+	check=1;
+});
+
+$("#pB").click(function(evt){
+	check=1;
+});
+
+$("#pAn").click(function(evt){
+	check=1;
+});
+
+$("#pO").click(function(evt){
+	check=1;
+});
+//----
