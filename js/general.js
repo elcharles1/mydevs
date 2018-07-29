@@ -58,4 +58,5 @@ $(function(){ //cargar modulos a sus respectivas secciones
 	$("#tarjetasAngular").load('angular/angular.html');
 	$("#tarjetasAndroid").load('android/android.html');
 	$("#tarjetasOtros").load('otros/otros.html');
+	$("#profile").load('rsc/profile.html');
 });
