@@ -50,3 +50,8 @@ $("#pO").click(function(evt){
 	check=1;
 });
 //----
+//
+
+$(function(){
+	$("#test").load('laravel/laravel.html');
+});
