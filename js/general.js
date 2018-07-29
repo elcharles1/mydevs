@@ -52,6 +52,7 @@ $("#pO").click(function(evt){
 //----
 //
 
-$(function(){
-	$("#test").load('laravel/laravel.html');
+$(function(){ //cargar modulos a sus respectivas secciones
+	$("#tarjetasLaravel").load('laravel/laravel.html');
+	$("#tarjetasBootstrap").load('bootstrap/bootstrap.html');
 });
