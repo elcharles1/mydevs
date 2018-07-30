@@ -73,3 +73,7 @@ document.getElementById('arrow').style.transform="rotate(" + value + "deg)";
 $("#arrow").click(function(){
 	rotate(180);
 });
+
+$(function () { //Inicializar popovers
+  $('[data-toggle="popover"]').popover();
+});
