@@ -2,23 +2,35 @@
   <i class="fas fa-clipboard-check mr-2"></i>Sección en construcción. Varios templates se subirán en los próximos días.
 </div>
 
-      <!-- Inicio de Tarjeta -->
+        <!-- Todas las tarjetas se introducen en un elemento <li> -->
 
-            <div class="card float-left mb-3 mt-3 ml-3" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+
+      <!-- Inicio de item <li> -->
+
+      <li class="list-group-item">
+          <!--Todo elemento <li> contendrá dos columnas-->
+        <div class="row">
+
+                   <!-- Inicio de Tarjeta -->
+
+            <div class="card float-left mb-3 mt-3 ml-3 col-5" style="width: 25rem">
 
                 <div class="card-body">
 
-                    <h5 class="card-title">Template #1</h5>
+                    <h5 class="card-title">Tienda electrónica</h5>
                       
-                                        <!--    Carrousel B1  -->
+                                        <!--    Carrousel L1 -->
 
-                      <div id="carouselB1" class="carousel slide" data-ride="carousel">
+                      <div id="carouselL1" class="carousel slide" data-ride="carousel">
 
                         <div class="carousel-inner">
 
                           <div class="carousel-item active">
 
-                            <img class="d-block w-100" src="img/build.jpg" alt="First slide">
+                                            <!--Imagenes-->
+
+                            <img class="d-block w-100 carrousellImg" data-toggle="modal" data-target="#modal" src="img/build.jpg" alt="First slide">
 
                           </div>
 
@@ -35,8 +47,9 @@
                           </div>
 
                         </div>
+                                      <!--Controles-->
 
-                        <a class="carousel-control-prev bg-secondary" href="#carouselB1" role="button" data-slide="prev">
+                        <a class="carousel-control-prev bg-secondary" href="#carouselL1" role="button" data-slide="prev">
 
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
@@ -44,7 +57,7 @@
 
                         </a>
 
-                        <a class="carousel-control-next bg-secondary" href="#carouselB1" role="button" data-slide="next">
+                        <a class="carousel-control-next bg-secondary" href="#carouselL1" role="button" data-slide="next">
 
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
 
@@ -56,28 +69,34 @@
 
                                            <!--   ..Fin carrousel..   -->
 
-                    <h6 class="card-subtitle mb-2 mt-3 text-muted">Template #1</h6>
+                    <h6 class="card-subtitle mb-2 mt-3 text-muted">Tienda electrónica para venta general de productos</h6>
 
+                                            <!-- <a>Ver detalles</a> collapseL1 -->
 
-                                 <!-- Ver detalles collapseB1 -->
-
-                    <a data-toggle="collapse" href="#collapseB1" role="button" aria-expanded="false" aria-controls="collapseExample" class="card-link cardItem mr-3 dropdown-toggle">Ver detalles</a>
+                    <a data-toggle="collapse" href="#collapseB1" role="button" aria-expanded="false" aria-controls="collapseExample" class="card-link cardItem mr-3 dropdown-toggle" id="arrow">Ver detalles</a>
                     
                                  
 
                     <a href="#" class="card-link cardItem">Colaborar<i class="fab fa-github ml-1"></i></a>
+                    
+                    <!--Segundo collapse-->
 
-                </div>
+                    <a  data-toggle="collapse" class="ml-5" href="#collapse2B1" role="button" aria-expanded="false" aria-controls="collapseB1">Contenido -></a>
+
+                  
+                  </div>
+                        <!--Fin card body-->   
+           
                         
                          <!--Menu desplegable para mostrar detalles-->
 
                 <div class="collapse" id="collapseB1">
 
                       <div class="card card-body">
-                        <label>En construcción</label>
+                        <label>¿Qué incluye?</label>
                           <ul class="collapseList">
                             
-                            <li type="circle">--</li>
+                            <li type="circle">-En construcción-</li>
                             <li type="circle">--</li>
                             <li type="circle">--</li>
 
@@ -85,15 +104,44 @@
 
                       </div>
 
-
-
                     </div>
 
-                        <!--   ...   -->
+                        <!--   ..Fin menu collapseL1..   -->
 
             </div>
-    
-    <!-- ..Fin de tarjeta.. -->
 
+        <!-- ..Fin de tarjeta.. -->
 
-    
+        <!--Inicio segunda columna-->
+            <div id="menuSecond" class="col-6 ml-3 mt-3" style="overflow-y: auto;height: 530px">
+                
+                <div class="collapse" id="collapse2B1">
+                   <div class="alert alert-primary" role="alert">A simple primary alert—check it out!
+
+                   </div>
+
+                    <div class="alert alert-secondary" role="alert">
+                      A simple secondary alert—check it out!
+                    </div>
+
+                    <div class="alert alert-success" role="alert">
+                      A simple success alert—check it out!
+                    </div>
+
+                    <div class="alert alert-success" role="alert">
+                      A simple success alert—check it out!
+                    </div>
+
+                </div>
+              
+            </div>
+      </div>
+
+    <!-- Fin <row> -->
+       </li> 
+
+       <!--Fin item <li>-->
+
+     </ul>
+
+<!-- Fin lista <ul> -->
