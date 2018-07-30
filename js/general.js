@@ -77,3 +77,7 @@ $("#arrow").click(function(){
 $(function () { //Inicializar popovers
   $('[data-toggle="popover"]').popover();
 });
+
+
+
+
