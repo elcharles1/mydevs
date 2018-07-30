@@ -185,6 +185,10 @@ a{
 	.sectionContent, .section{
 		margin-left: 420px;
 	}
+
+	.wrapper{
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 2160px){
