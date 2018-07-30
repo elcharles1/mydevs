@@ -138,11 +138,17 @@ a{
 	.sectionContent, .section{
 		margin-left: 230px;
 	}
+	.wrapper{
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 1024px){
 	.sectionContent, .section{
 		margin-left: 260px;
+	}
+	.wrapper{
+		width: 70%;
 	}
 }
 
@@ -150,16 +156,26 @@ a{
 	.sectionContent, .section{
 		margin-left: 280px;
 	}
+	.wrapper{
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 1366px){
 	.sectionContent, .section{
 		margin-left: 300px;
 	}
+
+	.wrapper{
+		width: 70%;
+	}
 }
 @media screen and (min-width:1440px){
 		.sectionContent, .section{
 		margin-left: 320px;
+	}
+	.wrapper{
+		width: 70%;
 	}
 }
 
@@ -167,17 +183,28 @@ a{
 	.sectionContent, .section{
 		margin-left: 350px;
 	}
+	.wrapper{
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 1680px){
 	.sectionContent, .section{
 		margin-left: 370px;
 	}
+
+	.wrapper{
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 1790px){
 	.sectionContent, .section{
 		margin-left: 390px;
+	}
+
+	.wrapper{
+		width: 70%;
 	}
 }
 
@@ -195,11 +222,19 @@ a{
 	.sectionContent, .section{
 		margin-left: 450px;
 	}
+
+	.wrapper{
+		width: 70%;
+	}
 }
 
 @media screen and (min-width: 2210px){
 	.sectionContent, .section{
 		margin-left: 480px;
+	}
+
+	.wrapper{
+		width: 70%;
 	}
 }
 
@@ -207,10 +242,16 @@ a{
 	.sectionContent, .section{
 		margin-left: 510px;
 	}
+	.wrapper{
+		width: 70%;
+	}
 }
 @media screen and (min-width: 2560px){
 	.sectionContent, .section{
 		margin-left: 540px;
+	}
+	.wrapper{
+		width: 70%;
 	}
 }
 
