@@ -183,30 +183,30 @@ a{
 
 @media screen and (min-width: 1920px){
 	.sectionContent, .section{
-		margin-left: 430px;
+		margin-left: 420px;
 	}
 }
 
 @media screen and (min-width: 2160px){
 	.sectionContent, .section{
-		margin-left: 460px;
+		margin-left: 450px;
 	}
 }
 
 @media screen and (min-width: 2210px){
 	.sectionContent, .section{
-		margin-left: 490px;
+		margin-left: 480px;
 	}
 }
 
 @media screen and (min-width: 2350px){
 	.sectionContent, .section{
-		margin-left: 520px;
+		margin-left: 510px;
 	}
 }
 @media screen and (min-width: 2560px){
 	.sectionContent, .section{
-		margin-left: 550px;
+		margin-left: 540px;
 	}
 }
 
