@@ -126,6 +126,11 @@ a{
 	overflow-y: scroll;
 }
 
+.carrousellImg{
+	cursor: pointer;
+}
+
+
 
 
 

@@ -59,4 +59,17 @@ $(function(){ //cargar modulos a sus respectivas secciones
 	$("#tarjetasAndroid").load('android/android.html');
 	$("#tarjetasOtros").load('otros/otros.html');
 	$("#profile").load('rsc/profile.html');
+	$("#modals").load('rsc/modals.html');
+});
+
+function rotate(value)
+{
+document.getElementById('arrow').style.webkitTransform="rotate(" + value + "deg)";
+document.getElementById('arrow').style.msTransform="rotate(" + value + "deg)";
+document.getElementById('arrow').style.transform="rotate(" + value + "deg)";
+}
+
+
+$("#arrow").click(function(){
+	rotate(180);
 });
